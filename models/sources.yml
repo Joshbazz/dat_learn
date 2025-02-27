@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: google_analytics_sample  # This is how dbt will reference it
+    database: bigquery-public-data  # Public dataset project in BigQuery
+    schema: google_analytics_sample  # Dataset name
+    tables:
+      - name: ga_sessions_20170801  # Table name in the dataset

@@ -1,0 +1,5 @@
+version: 2
+
+models:
+    - name: example_model
+      description: "big query example data model"
